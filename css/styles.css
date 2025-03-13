@@ -1,0 +1,140 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   /*width: 100%;*/
+   display: block;
+}
+
+body {
+   background-color: white;
+   color: black;
+/*   font-family: "Merriweather", serif;*/
+   font-family: 'Montserrat', sans-serif;
+   font-size:0.9em;
+}
+
+/*buttons*/
+
+button{
+   margin:auto;
+   border:0px;
+   border-radius:5px;
+   padding:5px 15px;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+
+button:hover{
+   cursor:pointer;
+   background-color:lightgrey;
+}
+
+.controls{
+   font-weight:bold;
+}
+
+#submit{
+   font-size:1em;
+   padding:15px 25px;
+}
+
+.controlGrid{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr;
+   align-items:center;
+}
+
+.intro{
+   margin-bottom:10px;
+   font-size:1.2em;
+}
+
+#question{
+   font-size:1.2em;
+}
+
+.notice{
+   margin:auto;
+   margin-top:10px;
+   font-size:0.9em;
+}
+
+/*main part*/
+
+.main{
+   text-align:center;
+   padding:20px;
+}
+
+.grid{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   text-align:center;
+   grid-gap:10px;
+   font-family: "VT323", serif;
+}
+
+.title{
+   margin-bottom:0px;
+   font-size:1.75em;
+}
+
+.print{
+   background-color:black;
+   color:white;
+   height:42vh;
+   padding:20px;
+   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+   overflow:scroll;
+   font-size:1.2em;
+}
+
+.printing:after {
+  content: "|";
+  color: #0f0;
+  animation: blink 0.66s steps(3, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.attr{
+   text-align:right;
+   font-size:0.8em;
+}
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
